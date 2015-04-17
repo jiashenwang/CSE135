@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="resources/stylesheets/main.css">
+		<link rel="stylesheet" type="text/css" href="resources/stylesheets/signup-stylesheet.css">
+		<title>Sign Up</title>
+	</head>
+<body>
+	<div class="signupContent">
+		<h1>Sign Up Page</h1>
+		<form action="signup.jsp" method=post>
+			ID Name: <input type="text" name="userId"><br><br>
+			Role: 
+			<select name="userRole">
+				<option value="owner">Owner</option>
+				<option value="customer">Customer</option>
+			</select><br><br>
+			Age: <input type="number" name="userAge"><br><br>
+			State: 
+			<select name="userState">
+				<option value="CA">CA</option>
+				<option value="MI">MI</option>
+			</select><br><br>
+			<input type="submit" value="Submit" />
+		</form>
+	</div>
+</body>
+</html>
